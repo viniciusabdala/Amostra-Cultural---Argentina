@@ -134,7 +134,7 @@ class MainAPP extends State<MainApp> {
                   textAlign: TextAlign.justify,
                 ),
                 SizedBox(height: 25),
-                Text("COLOCA O TEXTO AI só que roxo",
+                Text("A história da Argentina começou com os povos indígenas que habitavam a região antes da chegada dos europeus. No século XVI, os espanhóis colonizaram o território, que permaneceu sob domínio da Espanha por vários séculos. Em 1810, teve início o processo de independência com a Revolução de Maio, e em 1816 a Argentina declarou oficialmente sua independência. Durante o século XIX, o país passou por conflitos internos e um período de organização política. No final do século XIX e início do século XX, a Argentina recebeu milhões de imigrantes, principalmente da Itália e da Espanha, o que influenciou fortemente sua cultura. Nesse período, o país se tornou uma das economias mais prósperas do mundo. Ao longo do século XX, a Argentina enfrentou crises políticas, governos militares e dificuldades econômicas. Um dos líderes mais conhecidos foi Juan Domingo Perón, cuja influência marcou a história do país. Atualmente, a Argentina é uma das principais nações da América do Sul, reconhecida por sua rica cultura, pelo tango, pelo futebol e por sua importância econômica e histórica na região",
                 textAlign: TextAlign.justify,),
                 SizedBox(height: 75),
                 Text(
