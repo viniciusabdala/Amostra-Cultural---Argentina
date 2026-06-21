@@ -52,7 +52,7 @@ class MainAPP extends State<MainApp> {
                 Text("Sobre a bandeira:", textScaler: TextScaler.linear(1.5)),
                 SizedBox(height: 25),
                 Text(
-                  "A Argentina é um dos países mais importantes da América do Sul. Conhecida pelo futebol, pelo tango, pelo mate e por suas belas paisagens, ela possui uma cultura rica e reconhecida mundialmente. Explore neste aplicativo alguns dos principais aspectos da identidade argentina",
+                  "A bandeira da Argentina é um dos principais símbolos nacionais do país. Ela é formada por três faixas horizontais: duas faixas azuis nas partes superior e inferior e uma faixa branca no centro. No meio da faixa branca está o Sol de Maio, um símbolo que representa a liberdade e a independência da nação. A bandeira foi criada por Manuel Belgrano em 1812, durante o processo de independência da Argentina em relação à Espanha. Desde então, tornou-se um importante elemento da identidade nacional argentina. As cores azul e branco estão associadas ao céu e às nuvens, embora existam diferentes interpretações históricas sobre seu significado. Atualmente, a bandeira é utilizada em eventos oficiais, celebrações patrióticas e competições esportivas, representando o orgulho e a união do povo argentino. Ela é reconhecida mundialmente e está fortemente ligada à história, à cultura e às conquistas do país.",
                   textAlign: TextAlign.justify,
                 ),
                 SizedBox(height: 50),
@@ -143,8 +143,12 @@ class MainAPP extends State<MainApp> {
                   textAlign: TextAlign.justify,
                 ),
                 SizedBox(height: 25),
-                Text("COLOCA O sabor referencias AI só que roxo",
+                Text("ARGENTINA. Gobierno de la República Argentina. Disponível em: <https://www.argentina.gob.ar>. Acesso em: 21 jun. 2026.",
                 textAlign: TextAlign.justify),
+                Text("ENCYCLOPAEDIA BRITANNICA. Argentina. Disponível em: <https://www.britannica.com/place/Argentina>. Acesso em: 21 jun. 2026.",
+                textAlign: TextAlign.justify),
+                Text("ARGENTINA TURISMO. Portal Oficial de Turismo da Argentina. Disponível em: <https://www.argentina.travel>. Acesso em: 21 jun. 2026.",
+                textAlign: TextAlign.justify)
               ],
             ),
           ),
