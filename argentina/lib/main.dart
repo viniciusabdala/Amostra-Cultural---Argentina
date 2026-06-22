@@ -27,6 +27,7 @@ class MainAPP extends State<MainApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: const Color.fromRGBO(229, 246, 255, 1.0),
         appBar: AppBar(
           title: Text("Conheça a Argentina!"),
           backgroundColor: const Color.fromARGB(255, 117, 170, 219),
@@ -37,10 +38,11 @@ class MainAPP extends State<MainApp> {
         ),
         body: SingleChildScrollView(
           child: Padding(
-            padding: EdgeInsetsGeometry.all(8.0),
+            padding: EdgeInsetsGeometry.all(40.0),
             child: Column(
               children: [
                 Text("Argentina", textScaler: TextScaler.linear(2)),
+                SizedBox(height: 25),
                 Image.asset('assets/Bandeira.png'),
 
                 SizedBox(height: 25),
